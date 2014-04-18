@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+	    <TextView
+			android:layout_width="fill_parent"
+			android:layout_height="44dp"
+			android:paddingLeft="10dp"
+			android:textSize="13sp"
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			android:background="#eb3c00"
+			android:text="@string/car1"
+			android:textColor="#ffffff" />
+    
+	    <LinearLayout
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="vertical"
+	       android:padding="16dp"
+	       android:background="#e9e9e9" >
+	       
+	        
+	        <TextView
+	            android:id="@+id/sp_car1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:textSize="13sp"
+	            android:textColor="#777777"
+	            android:text="@string/car2" />
+	        
+	       
+	        <TextView
+	            android:id="@+id/tv_car1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:focusable="true"
+	            android:focusableInTouchMode="true">
+	        <requestFocus /></TextView>
+	      
+	        <EditText
+	            android:id="@+id/et_car1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	        
+	        <TextView
+	            android:id="@+id/tv_car2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/et_car2"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	        
+	        <TextView
+	            android:id="@+id/tv_car3"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/et_car3"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	        
+	        <TextView
+	            android:id="@+id/tv_car4"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/et_car4"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	        
+	        <TextView
+	            android:id="@+id/tv_car5"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/et_car5"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	        
+	        <TextView
+	            android:id="@+id/tv_car6"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/et_car6"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	        <TextView
+	            android:id="@+id/tv_car7"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/et_car7"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	        <TextView
+	            android:id="@+id/tv_car8"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/et_car8"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	        <TextView
+	            android:id="@+id/tv_car9"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/et_car9"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	        <TextView
+	            android:id="@+id/tv_car10"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/et_car10"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	        <TextView
+	            android:id="@+id/tv_car11"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/et_car11"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	        <TextView
+	            android:id="@+id/tv_car12"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/et_car12"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	        <TextView
+	            android:id="@+id/tv_car13"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/et_car13"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	        <TextView
+	            android:id="@+id/tv_car14"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/et_car14"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="20dp" />
+	
+	    
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+	        
+		        <Button
+	                android:id="@+id/bt_car_delete"
+	                android:layout_width="0dp"
+	                android:layout_weight="2"
+	                android:layout_marginRight="10dp"
+	                android:layout_height="wrap_content" />
+	        
+			    <Button
+			        android:id="@+id/bt_car_clear"
+			        android:layout_width="0dp"
+			        android:layout_weight="3"
+			        android:layout_marginRight="10dp"
+			        android:layout_height="wrap_content" />
+			    <Button
+			        android:id="@+id/bt_car_next"
+			        android:layout_width="0dp"
+			        android:layout_weight="3"
+			        android:layout_height="wrap_content" />
+			    
+			    
+            
+		    </LinearLayout>
+	    </LinearLayout>
+	</LinearLayout>
+</ScrollView>

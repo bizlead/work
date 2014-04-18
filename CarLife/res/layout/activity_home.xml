@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#111111"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout
+        android:id="@+id/ll_home_title"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="#ff6600"
+        android:orientation="horizontal">
+        
+        <ImageView
+            android:id="@+id/iv_home_title"
+            android:layout_width="50dp"
+            android:paddingTop="4dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/carlife5" />
+    	
+    	<TextView
+    	    android:id="@+id/tv_home_title"
+    	    android:layout_width="0dp"
+    	    android:layout_height="44dp"
+    	    android:layout_weight="1"
+    	    android:textSize="14sp"
+    	    android:shadowColor="#FFFFFF"
+			android:shadowDx="1.1"
+			android:shadowDy="1.1"
+			android:shadowRadius="1.1"
+			android:paddingLeft="10dp"
+    	    android:text="CarLife" />
+    	
+    	<Button
+    	    android:id="@+id/bt_home_title"
+    	    android:layout_width="wrap_content"
+    	    android:text="詳細表示"
+    	    android:visibility="invisible"
+    	    android:textSize="14sp"
+    	    android:layout_height="44dp" />
+    </LinearLayout>
+    
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="280dp"
+	    android:layout_marginTop="10dp"  
+	    android:layout_marginBottom="10dp"	    
+	    android:orientation="horizontal" >
+
+	    <Button
+	        android:id="@+id/homeBtId1"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_marginRight="10dp"
+	        android:layout_weight="1"
+	        android:drawableTop="@drawable/reca"
+	        android:paddingTop="60dp" />
+	    
+	    <LinearLayout
+	        android:layout_width="120dp"
+	        android:layout_height="fill_parent"
+	        android:orientation="vertical" >
+
+		    <Button
+		        android:id="@+id/homeBtId2"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_marginBottom="10dp"
+		        android:layout_weight="2"
+		        android:drawableTop="@drawable/setting"
+		        android:paddingTop="28dp" />
+		    
+		    <Button
+		        android:id="@+id/homeBtId3"
+		        android:layout_width="fill_parent"
+		        android:layout_height="0dp"
+		        android:layout_weight="2"
+		        android:drawableTop="@drawable/time"
+		        android:paddingTop="28dp" />
+
+		</LinearLayout>
+	</LinearLayout>
+    
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:layout_marginBottom="10dp"
+	    android:orientation="horizontal" >
+
+	    <Button
+	        android:id="@+id/homeBtId4"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_marginRight="10dp"
+	        android:layout_weight="2"
+	        android:drawableTop="@drawable/phone"
+	        android:paddingTop="46dp" />
+	    
+	    <Button
+	        android:id="@+id/homeBtId5"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="2"
+	        android:drawableTop="@drawable/cancel2"
+	        android:paddingTop="46dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

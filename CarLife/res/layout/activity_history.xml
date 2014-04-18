@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/tv_his"
+        android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+       	android:padding="10dp"
+       	android:textColor="#FFFFFF"
+       	android:focusable="true"
+		android:focusableInTouchMode="true"
+       	android:text="@string/his1"
+       	android:background="#217345" />
+    
+    <TextView
+        android:id="@+id/tv_his2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="textView2"
+        android:textSize="13sp"
+        android:textColor="#333333" />
+    
+    <ListView
+        android:id="@+id/lv_his"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+   
+
+</LinearLayout>

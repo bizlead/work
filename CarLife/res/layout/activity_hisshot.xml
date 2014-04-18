@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fefefe"
+    android:orientation="vertical" >
+    
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	    
+	    <TextView
+		    android:text="@string/hisshot1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:textColor="#FFFFFF"
+		    android:padding="10dp"
+		    android:textStyle="bold"
+		    android:layout_marginBottom="20dp"
+		    android:focusable="true"
+			android:focusableInTouchMode="true"
+		    android:background="#217345" />
+    
+	    <LinearLayout
+		   	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_margin="10dp"
+		    android:background="@drawable/underline_green"
+		    android:layout_marginBottom="20dp"
+		    android:orientation="vertical"> 
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/hisshot2"
+			        android:textStyle="bold"
+			        android:paddingRight="10dp"
+			        android:paddingTop="8dp"
+			        android:textSize="15sp"
+			        android:textColor="#333333" />
+			    
+			    <ImageView
+			        android:src="@drawable/user"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" />
+		    </LinearLayout>
+		    
+		    
+
+	        <ListView
+	            android:id="@+id/lv_hisshot"
+	            android:layout_width="fill_parent"
+	            android:layout_marginBottom="20dp"
+	            android:layout_height="wrap_content" />
+	        
+        </LinearLayout>
+        
+		<LinearLayout
+		   	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/underline_green"
+		    android:layout_marginBottom="20dp"
+		    android:layout_margin="10dp"
+		    android:orientation="vertical"> 
+
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/hisshot3"
+			        android:textStyle="bold"
+			        android:textSize="15sp"
+			        android:paddingRight="10dp"
+			        android:textColor="#333333" />
+			    <ImageView
+			        android:src="@drawable/track"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content" />
+		    </LinearLayout>
+			        
+	        <ListView
+	            android:id="@+id/lv_hisshot2"
+	            android:layout_width="fill_parent"
+	            android:layout_marginBottom="20dp"
+	            android:padding="10dp"
+	            android:layout_height="wrap_content" />
+	        
+        </LinearLayout>
+	</LinearLayout>   
+</ScrollView>

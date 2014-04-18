@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+	    
+	    <TextView android:id="@+id/tv_agree1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku1" />
+	    <TextView android:id="@+id/tv_agree2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku2" />
+	    <TextView android:id="@+id/tv_agree3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku3" />
+	    <TextView android:id="@+id/tv_agree4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku4" />
+	    <TextView android:id="@+id/tv_agree5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku5" />
+	    <TextView android:id="@+id/tv_agree6"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku6" />
+	    <TextView android:id="@+id/tv_agree7"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku7" />
+	    <TextView android:id="@+id/tv_agree8"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku8" />
+	    <TextView android:id="@+id/tv_agree9"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku9" />
+	    <TextView android:id="@+id/tv_agree10"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku10" />
+	    <TextView android:id="@+id/tv_agree11"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku11" />
+	    <TextView android:id="@+id/tv_agree12"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku12" />
+	    <TextView android:id="@+id/tv_agree13"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku13" />
+	    <TextView android:id="@+id/tv_agree14"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku14" />
+	    <TextView android:id="@+id/tv_agree15"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku15" />
+	    <TextView android:id="@+id/tv_agree16"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/kiyaku16" />
+	    
+	    
+	    <Button
+	        android:id="@+id/bt_agree"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="40dp"
+	        android:layout_marginTop="40dp"
+	        android:layout_marginRight="40dp"
+	        android:layout_marginBottom="20dp"
+	        android:textSize="13sp"
+	        android:textColor="#FFFFFF"
+	        android:text="戻る"
+	        android:background="@drawable/home_setting" />
+	    
+	</LinearLayout>
+
+</ScrollView>

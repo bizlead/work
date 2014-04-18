@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Home -->
+    <string-array name="homeBtId">
+        <item name="id">homeBtId1</item>
+        <item name="id">homeBtId2</item>
+        <item name="id">homeBtId3</item>
+        <item name="id">homeBtId4</item>
+        <item name="id">homeBtId5</item>
+    </string-array>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

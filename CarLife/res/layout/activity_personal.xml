@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	    
+	    <TextView
+			android:layout_width="fill_parent"
+			android:layout_height="44dp"
+			android:paddingLeft="10dp"
+			android:textSize="13sp"
+			android:background="#eb3c00"
+			android:text="@string/per1"
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			android:textColor="#ffffff" />
+	       
+	       <LinearLayout
+	           android:layout_width="fill_parent"
+	           android:layout_height="wrap_content"
+	           android:orientation="vertical"
+	           android:padding="16dp"
+	           android:background="#e9e9e9" >
+	           
+	           <TextView
+	               android:id="@+id/tv_personal8"
+	               android:layout_width="fill_parent"
+	               android:layout_height="wrap_content" />
+	           
+	           <EditText
+	               android:id="@+id/et_personal7"
+	               android:layout_width="fill_parent"
+	               android:layout_height="wrap_content"
+	               android:layout_marginBottom="10dp" />
+	           
+			    <!-- 名前 -->
+			    <TextView
+			        android:id="@+id/tv_personal1"
+			      	android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:focusable="true"
+	            	android:focusableInTouchMode="true">
+	        	<requestFocus /></TextView>
+			    <EditText
+			        android:id="@+id/et_personal1"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="10dp" />
+			    
+			    
+			    <TextView
+			        android:id="@+id/tv_personal2"
+			      	android:layout_width="fill_parent"
+			        android:layout_height="wrap_content" />
+			    
+			    <EditText
+			        android:id="@+id/et_personal2"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="20dp" />
+			    
+			    
+			    <!-- 生年月日 -->
+			     <TextView
+			        android:id="@+id/tv_personal3"
+			      	android:layout_width="fill_parent"
+			        android:layout_height="wrap_content" />
+			     
+			    <LinearLayout
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="20dp"
+			        android:orientation="horizontal" >    
+				    
+				    <Spinner
+				        android:id="@+id/sp_personal1"
+				        android:layout_width="0dp"
+				        android:layout_marginRight="8dp"
+				        
+				        android:layout_height="36dp"
+				        android:layout_weight="3" />
+				    
+				    <Spinner
+				        android:id="@+id/sp_personal2"
+				        android:layout_width="0dp"
+				        android:layout_marginRight="8dp"
+				        android:layout_height="36dp"
+				        android:layout_weight="3" />
+				    
+				    <Spinner
+				        android:id="@+id/sp_personal3"
+				        android:layout_width="0dp"
+				        android:layout_height="36dp"
+				        android:layout_weight="3" />
+				    
+				</LinearLayout>
+				
+			    
+			    
+			    <!-- 住所 -->
+			    <TextView
+			        android:id="@+id/tv_personal4"
+			      	android:layout_width="fill_parent"
+			        android:layout_height="wrap_content" />
+			    
+				<LinearLayout
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginBottom="10dp"
+				    android:orientation="horizontal">
+				    
+				    <EditText
+				        android:id="@+id/et_personal3"
+				        android:layout_width="0dp"
+				        android:layout_height="wrap_content"
+				        android:layout_marginRight="8dp"
+				        android:layout_weight="2" />
+				    
+				    <Spinner 
+				        android:id="@+id/sp_personal4"
+				        android:layout_width="0dp"
+				        android:layout_height="36dp"
+				        android:layout_weight="2" /> 
+				</LinearLayout>
+				
+				
+				<TextView
+			        android:id="@+id/tv_personal5"
+			      	android:layout_width="fill_parent"
+			        android:layout_height="wrap_content" />
+				<EditText 
+				    android:id="@+id/et_personal4"
+				    android:layout_width="fill_parent"
+				    android:layout_marginBottom="10dp"
+				    android:layout_height="wrap_content" />
+				
+				<TextView
+			        android:id="@+id/tv_personal6"
+			      	android:layout_width="fill_parent"
+			        android:layout_height="wrap_content" />
+				
+				<EditText 
+				    android:id="@+id/et_personal5"
+				    android:layout_width="fill_parent"
+				    android:layout_marginBottom="20dp"
+				    android:layout_height="wrap_content" />
+				
+				
+				<!-- 連絡先 -->
+				<TextView
+			        android:id="@+id/tv_personal7"
+			      	android:layout_width="fill_parent"
+			        android:layout_height="wrap_content" />
+				
+				<EditText 
+				    android:id="@+id/et_personal6"
+				    android:layout_width="fill_parent"
+				    android:layout_marginBottom="20dp"
+				    android:layout_height="wrap_content" />
+			
+				<!-- ボタン -->
+				<LinearLayout
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal">
+		
+				    <Button
+				        android:id="@+id/bt_personal_clear"
+				        android:layout_width="0dp"
+				        android:layout_weight="2"
+				        android:layout_marginRight="10dp"
+				        android:layout_height="wrap_content" />
+				    
+				    <Button
+				        android:id="@+id/bt_personal_next"
+				        android:layout_width="0dp"
+				        android:layout_weight="2"
+				        android:layout_height="wrap_content" />
+		
+			</LinearLayout>
+			 
+				
+		</LinearLayout>
+	
+   </LinearLayout>
+</ScrollView>
